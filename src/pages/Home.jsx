@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "../components/HeroSection";
+import { FeatherIcon } from "lucide-react";
+import FeatureSection from "../components/FeatureSection";
+import TrailerSection from "../components/TrailerSection";
+
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <HeroSection />
+      <FeatureSection />
+      <TrailerSection/>
+    </>
+  );
+};
 
-export default Home
+export default Home;
